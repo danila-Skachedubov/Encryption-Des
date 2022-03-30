@@ -1,0 +1,15 @@
+C:\Users\Uset\Documents\GitHub\Des\Des\bin\Debug\Des.exe.config
+C:\Users\Uset\Documents\GitHub\Des\Des\bin\Debug\Des.exe
+C:\Users\Uset\Documents\GitHub\Des\Des\bin\Debug\Des.pdb
+C:\Users\Uset\Documents\GitHub\Des\Des\obj\Debug\Des.csproj.AssemblyReference.cache
+C:\Users\Uset\Documents\GitHub\Des\Des\obj\Debug\MainWindow.g.cs
+C:\Users\Uset\Documents\GitHub\Des\Des\obj\Debug\App.g.cs
+C:\Users\Uset\Documents\GitHub\Des\Des\obj\Debug\Des_MarkupCompile.cache
+C:\Users\Uset\Documents\GitHub\Des\Des\obj\Debug\Des_MarkupCompile.lref
+C:\Users\Uset\Documents\GitHub\Des\Des\obj\Debug\MainWindow.baml
+C:\Users\Uset\Documents\GitHub\Des\Des\obj\Debug\Des.g.resources
+C:\Users\Uset\Documents\GitHub\Des\Des\obj\Debug\Des.Properties.Resources.resources
+C:\Users\Uset\Documents\GitHub\Des\Des\obj\Debug\Des.csproj.GenerateResource.cache
+C:\Users\Uset\Documents\GitHub\Des\Des\obj\Debug\Des.csproj.CoreCompileInputs.cache
+C:\Users\Uset\Documents\GitHub\Des\Des\obj\Debug\Des.exe
+C:\Users\Uset\Documents\GitHub\Des\Des\obj\Debug\Des.pdb
