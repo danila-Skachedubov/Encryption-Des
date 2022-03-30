@@ -14,7 +14,7 @@
         <Button Click="Go"  Content="Выполнить" HorizontalAlignment="Left" Margin="20,265,0,0" VerticalAlignment="Top" Width="189" Height="32"/>
         <RadioButton x:Name="Choice1"  GroupName="Choice" Content="Зашифровать" HorizontalAlignment="Left" Height="21" Margin="20,182,0,0" VerticalAlignment="Top" Width="139"  Foreground="White" BorderBrush="#FF786A6A"/>
         <RadioButton x:Name="Choice2" GroupName="Choice" Content="Расшифровать" HorizontalAlignment="Left" Height="21" Margin="20,208,0,0" VerticalAlignment="Top" Width="139"  Background="White" Foreground="White"/>
-        <TextBox x:Name="Output"  HorizontalAlignment="Left" Height="23" Margin="20,314,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="271" Background="#FF3A3333" Foreground="#FFE2D1D1" />
+        <TextBox x:Name="Output"   HorizontalAlignment="Left" Height="23" Margin="20,314,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="271" Background="#FF3A3333" Foreground="#FFE2D1D1" />
 
     </Grid>
 </Window>

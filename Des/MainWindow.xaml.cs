@@ -142,7 +142,7 @@ string[] Blocks;
         }
 
  
-        private string StringToBinaryFormat(string input)
+        private string StringToBinaryFormat(string input)//строку в двоичный формат
         {
             string output = "";
 
@@ -159,7 +159,7 @@ string[] Blocks;
             return output;
         }
 
-        private string CorrectKeyWord(string input, int lengthKey)
+        private string CorrectKeyWord(string input, int lengthKey)//ключ до нужной длины 
         {
             if (input.Length > lengthKey)
                 input = input.Substring(0, lengthKey);
@@ -169,7 +169,7 @@ string[] Blocks;
 
             return input;
         }
-        private string EncodeDES_One_Round(string input, string key)
+        private string EncodeDES_One_Round(string input, string key)//один раунд кодировка
         {
             string L = input.Substring(0, input.Length / 2);
             string R = input.Substring(input.Length / 2, input.Length / 2);
@@ -177,7 +177,7 @@ string[] Blocks;
             return (R + XOR(L, f(R, key)));
         }
       
-        private string DecodeDES_One_Round(string input, string key)
+        private string DecodeDES_One_Round(string input, string key)//один раунд дешифровки
         {
             string L = input.Substring(0, input.Length / 2);
             string R = input.Substring(input.Length / 2, input.Length / 2);
@@ -185,7 +185,7 @@ string[] Blocks;
             return (XOR(f(L, key), R) + L);
         }
 
-        private string XOR(string s1, string s2)
+        private string XOR(string s1, string s2)//ксор двух строк
         {
             string result = "";
 
@@ -202,12 +202,12 @@ string[] Blocks;
             return result;
         }
 
-        private string f(string s1, string s2)
+        private string f(string s1, string s2)//шифрующая функция
         {
             return XOR(s1, s2);
         }
 
-        private string KeyToNextRound(string key)
+        private string KeyToNextRound(string key)//вычисление ключа для шифрования
         {
             for (int i = 0; i < shiftKey; i++)
             {
@@ -219,7 +219,7 @@ string[] Blocks;
         }
 
 
-        private string KeyToPrevRound(string key)
+        private string KeyToPrevRound(string key)//вычисление ключа для дешифрования
         {
             for (int i = 0; i < shiftKey; i++)
             {
@@ -230,7 +230,7 @@ string[] Blocks;
             return key;
         }
 
-        private string StringFromBinaryToNormalFormat(string input)
+        private string StringFromBinaryToNormalFormat(string input)//перевод в обычный формат
         {
             string output = "";
 
